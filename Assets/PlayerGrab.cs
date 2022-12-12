@@ -45,4 +45,15 @@ public class PlayerGrab : MonoBehaviour
             inHands = false;
         }
     }
+    public void RelaseTir()
+    {
+        if (inHands)
+        {
+            ball.transform.SetParent(null);
+            ball.transform.localPosition = Posstion;
+            ball.transform.eulerAngles = Rotation;
+            Destroy(ball.GetComponent("Button"));
+            inHands = false;
+        }
+    }
 }
