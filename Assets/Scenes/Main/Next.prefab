@@ -370,6 +370,7 @@ GameObject:
   - component: {fileID: 5720065851241836440}
   - component: {fileID: 5720065851241836441}
   - component: {fileID: 5720065851241836445}
+  - component: {fileID: 3214791833864330064}
   m_Layer: 5
   m_Name: Next
   m_TagString: Untagged
@@ -473,6 +474,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelToUnlock: 1
+--- !u!114 &3214791833864330064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5720065851241836454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 739800cd36aba44e9b04ce977e5784bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ignoreReversedGraphics: 1
+  blockingObjects: 2
+  blockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &5720065851589377115
 GameObject:
   m_ObjectHideFlags: 0
