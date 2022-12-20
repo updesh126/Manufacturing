@@ -593,7 +593,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 323815929}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.00001353}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 21654748}
@@ -601,8 +601,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -81.9, y: 36.5}
-  m_SizeDelta: {x: 773.66583, y: 319.4156}
+  m_AnchoredPosition: {x: 17.508, y: -9.3961}
+  m_SizeDelta: {x: 972.48285, y: 411.20782}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &323815931
 MonoBehaviour:
@@ -636,7 +636,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pick up the battery and attach it to the main chassie
+  m_Text: All-electric vehicles, also referred to as battery electric vehicles (BEVs),
+    have an electric motor instead of an internal combustion engine. The vehicle
+    uses a large traction battery pack to power the electric motor and must be plugged
+    in to a wall outlet or charging equipment, also called electric vehicle supply
+    equipment (EVSE). Because it runs on electricity, the vehicle emits no exhaust
+    from a tailpipe and does not contain the typical liquid fuel components, such
+    as a fuel pump, fuel line, or fuel tank.
 --- !u!222 &323815932
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -886,6 +892,92 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!1 &423251665
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 423251666}
+  - component: {fileID: 423251668}
+  - component: {fileID: 423251667}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &423251666
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423251665}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2007767722}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -3.1, y: 0.9}
+  m_SizeDelta: {x: 972.26416, y: 399.74646}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &423251667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423251665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: 9d9bfdbf151da954dae15042d70ed9ff, type: 2}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 30
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'HOW TO DO:
+
+
+    Go near the battery and point your screen pointer towards
+    the battery and hold for 3 sec it, then your robotic arm will pickup the battery.
+
+
+    then
+    you have to point toward the car chassie where the battery is to be attached.'
+--- !u!222 &423251668
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423251665}
+  m_CullTransparentMesh: 0
 --- !u!1001 &460409604
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4574,6 +4666,86 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50793d4d7ec3d5048bc8f3a0bdc65e0b, type: 3}
+--- !u!1 &1068128367
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1068128368}
+  - component: {fileID: 1068128370}
+  - component: {fileID: 1068128369}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1068128368
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068128367}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2007767723}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 3.1, y: 0.2}
+  m_SizeDelta: {x: 974.58575, y: 404.06516}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1068128369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068128367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: 9d9bfdbf151da954dae15042d70ed9ff, type: 2}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 30
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "TASK :\n\nThere is a battery icon floating in the right side of the factory
+    pick up the battery with the help of robotic arms and place it on the chassie
+    where another pin point floating icon is present.\n\n "
+--- !u!222 &1068128370
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068128367}
+  m_CullTransparentMesh: 0
 --- !u!1 &1082656792
 GameObject:
   m_ObjectHideFlags: 0
@@ -6146,7 +6318,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1994129571}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 121869836}
@@ -6154,8 +6326,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -193.7, y: 82.6}
-  m_SizeDelta: {x: 547.3185, y: 195.11183}
+  m_AnchoredPosition: {x: 8, y: -10.2}
+  m_SizeDelta: {x: 950.7665, y: 380.7746}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1994129573
 MonoBehaviour:
@@ -6189,7 +6361,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: BATTERY ASSEMBLY
+  m_Text: "BATTERY ASSEMBLY\n\nIn this Workshop you will learn how to attach batteries
+    on the Chelsea of an electric car vehicle. \n"
 --- !u!222 &1994129574
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6297,6 +6470,91 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2151868755952111465, guid: 1437bd906edc1574eab8eacff4c9afd2,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151868755952111465, guid: 1437bd906edc1574eab8eacff4c9afd2,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151868755952111465, guid: 1437bd906edc1574eab8eacff4c9afd2,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 803.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151868755952111465, guid: 1437bd906edc1574eab8eacff4c9afd2,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -35
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151868757423151972, guid: 1437bd906edc1574eab8eacff4c9afd2,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151868757423151972, guid: 1437bd906edc1574eab8eacff4c9afd2,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151868757423151972, guid: 1437bd906edc1574eab8eacff4c9afd2,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 503.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151868757423151972, guid: 1437bd906edc1574eab8eacff4c9afd2,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -459.7366
+      objectReference: {fileID: 0}
+    - target: {fileID: 5675561400967663007, guid: 1437bd906edc1574eab8eacff4c9afd2,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5675561400967663007, guid: 1437bd906edc1574eab8eacff4c9afd2,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5675561400967663007, guid: 1437bd906edc1574eab8eacff4c9afd2,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 803.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5675561400967663007, guid: 1437bd906edc1574eab8eacff4c9afd2,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -35
+      objectReference: {fileID: 0}
+    - target: {fileID: 5675561402590450867, guid: 1437bd906edc1574eab8eacff4c9afd2,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5675561402590450867, guid: 1437bd906edc1574eab8eacff4c9afd2,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5675561402590450867, guid: 1437bd906edc1574eab8eacff4c9afd2,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 503.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5675561402590450867, guid: 1437bd906edc1574eab8eacff4c9afd2,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -459.7366
+      objectReference: {fileID: 0}
+    - target: {fileID: 8701965586405420493, guid: 1437bd906edc1574eab8eacff4c9afd2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8701965586456038452, guid: 1437bd906edc1574eab8eacff4c9afd2,
         type: 3}
       propertyPath: m_SizeDelta.y
@@ -6367,6 +6625,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: What to do
+      objectReference: {fileID: 0}
+    - target: {fileID: 8701965586857329976, guid: 1437bd906edc1574eab8eacff4c9afd2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8701965586988022198, guid: 1437bd906edc1574eab8eacff4c9afd2,
         type: 3}
@@ -6493,6 +6756,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8701965587407539271, guid: 1437bd906edc1574eab8eacff4c9afd2,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8701965587407539271, guid: 1437bd906edc1574eab8eacff4c9afd2,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8701965587407539271, guid: 1437bd906edc1574eab8eacff4c9afd2,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8701965587407539271, guid: 1437bd906edc1574eab8eacff4c9afd2,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8701965587540210745, guid: 1437bd906edc1574eab8eacff4c9afd2,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -6532,6 +6815,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8701965587983899482, guid: 1437bd906edc1574eab8eacff4c9afd2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8701965587983899485, guid: 1437bd906edc1574eab8eacff4c9afd2,
         type: 3}
@@ -6542,6 +6830,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 20.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8701965588140720147, guid: 1437bd906edc1574eab8eacff4c9afd2,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8701965588140720147, guid: 1437bd906edc1574eab8eacff4c9afd2,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8701965588140720147, guid: 1437bd906edc1574eab8eacff4c9afd2,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8701965588140720147, guid: 1437bd906edc1574eab8eacff4c9afd2,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8701965588172953096, guid: 1437bd906edc1574eab8eacff4c9afd2,
         type: 3}
@@ -6620,6 +6928,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1437bd906edc1574eab8eacff4c9afd2, type: 3}
+--- !u!224 &2007767722 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8701965588140720147, guid: 1437bd906edc1574eab8eacff4c9afd2,
+    type: 3}
+  m_PrefabInstance: {fileID: 2007767721}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &2007767723 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8701965587407539271, guid: 1437bd906edc1574eab8eacff4c9afd2,
+    type: 3}
+  m_PrefabInstance: {fileID: 2007767721}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2049671086
 GameObject:
   m_ObjectHideFlags: 0
@@ -8432,6 +8752,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3535737521485142989, guid: 9ce9e427c26b44e45acf837cfcc84fb4,
+        type: 3}
+      propertyPath: m_text
+      value: 'Handle the Battery with care . Battries are highly Volatile.
+
+
+        Attach
+        the Battery here |'
+      objectReference: {fileID: 0}
     - target: {fileID: 3535737521768888400, guid: 9ce9e427c26b44e45acf837cfcc84fb4,
         type: 3}
       propertyPath: m_Name
