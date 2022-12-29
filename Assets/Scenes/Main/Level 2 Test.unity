@@ -30157,6 +30157,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300022, guid: 09daf63b07ae7ae438ec02fd869b9967, type: 3}
+--- !u!65 &933055376
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933055374}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0676239, y: 1.0032985, z: 4.5261846}
+  m_Center: {x: 0.0000018470488, y: 0.28696647, z: 0.18667258}
 --- !u!1001 &1014639382
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30972,7 +30985,7 @@ GameObject:
   - component: {fileID: 1514823406}
   m_Layer: 0
   m_Name: Rope
-  m_TagString: Untagged
+  m_TagString: chain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
