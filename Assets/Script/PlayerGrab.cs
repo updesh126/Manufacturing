@@ -7,7 +7,7 @@ public class PlayerGrab : MonoBehaviour
     public GameObject ball;
     public GameObject myHand;
     public GameObject LocPlane;
-    public Vector3 Posstion;
+    public Vector3 Position;
     public Vector3 Rotation;
 
     bool inHands =false;
@@ -40,7 +40,7 @@ public class PlayerGrab : MonoBehaviour
         if (inHands)
         {
             ball.transform.SetParent(LocPlane.transform);
-            ball.transform.localPosition = Posstion;
+            ball.transform.localPosition = Position;
             ball.transform.eulerAngles = Rotation;
             inHands = false;
         }
@@ -50,7 +50,7 @@ public class PlayerGrab : MonoBehaviour
         if (inHands)
         {
             ball.transform.SetParent(null);
-            ball.transform.localPosition = Posstion;
+            ball.transform.localPosition = Position;
             ball.transform.eulerAngles = Rotation;
             Destroy(ball.GetComponent("Button"));
             inHands = false;
