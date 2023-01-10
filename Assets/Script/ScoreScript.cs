@@ -26,14 +26,14 @@ public class ScoreScript : MonoBehaviour
     {
         score.text = "Score:" + scoreValue;
     }
-    public void ADDScore()
+    public void ADDScore(int Add)
     {
-        scoreValue += 10;
+        scoreValue += Add;
         CheckScore();
     }
-    public void SubScore()
+    public void SubScore(int Sub)
     {
-        scoreValue -= 10;
+        scoreValue -= Sub;
         CheckScore();
     }
     private void CheckScore()
