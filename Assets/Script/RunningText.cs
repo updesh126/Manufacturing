@@ -13,6 +13,10 @@ public class RunningText : MonoBehaviour
     [SerializeField] private TextMeshProUGUI itemInfoText;
     private int currentDisplayingText = 0;
 
+    private void Start()
+    {
+        ActivateText();
+    }
     public void ActivateText()
     {
         StartCoroutine(AnimateText());

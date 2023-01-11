@@ -225,7 +225,7 @@ MonoBehaviour:
   starSprite0: {fileID: 21300000, guid: 37f07fbaf7f9add4c94fe0ba1ff5db43, type: 3}
   StarSprite1: {fileID: 21300000, guid: 13cce6f8a24cc2940b1e4c7bb34e00d1, type: 3}
   StarSprite2: {fileID: 21300000, guid: 81d7c759f61d34d47a4d40368036c0b0, type: 3}
-  StarSprite3: {fileID: 21300000, guid: ddf2e76e8a1f88f46ae1e42277850b48, type: 3}
+  StarSprite3: {fileID: 21300000, guid: 75f5c286c299d534ba06bb482172720f, type: 3}
 --- !u!1 &1081457936014657451
 GameObject:
   m_ObjectHideFlags: 0
