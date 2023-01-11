@@ -594,7 +594,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1933809291}
+      - m_Target: {fileID: 0}
         m_MethodName: RelaseTir
         m_Mode: 1
         m_Arguments:
@@ -1184,75 +1184,6 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!1001 &392384229
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 6b944a5a4b170474689da33871f52210,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 26
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6b944a5a4b170474689da33871f52210,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.379
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6b944a5a4b170474689da33871f52210,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.933
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6b944a5a4b170474689da33871f52210,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.35
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6b944a5a4b170474689da33871f52210,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.023585163
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6b944a5a4b170474689da33871f52210,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6b944a5a4b170474689da33871f52210,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.9997219
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6b944a5a4b170474689da33871f52210,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6b944a5a4b170474689da33871f52210,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6b944a5a4b170474689da33871f52210,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -182.70299
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6b944a5a4b170474689da33871f52210,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6b944a5a4b170474689da33871f52210,
-        type: 3}
-      propertyPath: m_Name
-      value: Hyundai Interior
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6b944a5a4b170474689da33871f52210, type: 3}
 --- !u!1 &393747737
 GameObject:
   m_ObjectHideFlags: 0
@@ -7092,7 +7023,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1933809291}
+      - m_Target: {fileID: 0}
         m_MethodName: GrabObj
         m_Mode: 1
         m_Arguments:
@@ -8352,7 +8283,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4278777198094002, guid: ca970b0687dbd6f46baed8c70137e880, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4278777198094002, guid: ca970b0687dbd6f46baed8c70137e880, type: 3}
       propertyPath: m_LocalScale.x
@@ -10028,7 +9959,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 357024692427157999}
   m_LocalRotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.997, y: 0.048503, z: -0.819}
+  m_LocalPosition: {x: 0.9673, y: 0.0494, z: -0.819}
   m_LocalScale: {x: 1, y: 1, z: 2.1477}
   m_Children: []
   m_Father: {fileID: 6454251405891548405}
