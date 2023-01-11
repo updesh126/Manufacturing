@@ -326,6 +326,7 @@ GameObject:
   - component: {fileID: 361705815}
   - component: {fileID: 361705814}
   - component: {fileID: 361705813}
+  - component: {fileID: 361705817}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -366,8 +367,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemInfo:
-  - Welcome to our manufacturing world.
-  - Now,Let us show you the steps to be followed to complete this level.
+  - 'Welcome to our manufacturing world.
+
+'
+  - 
   - 
   - 
   - 
@@ -458,6 +461,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 361705817}
+        m_MethodName: ActivateText
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &361705815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -495,6 +509,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 361705811}
   m_CullTransparentMesh: 0
+--- !u!114 &361705817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361705811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b450b0c2a1b64dd41971d86232a7424e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemInfo:
+  - Now,Let us show you the steps to be followed to complete this level.
+  textSpeed: 0.01
+  itemInfoText: {fileID: 0}
 --- !u!1 &826887548
 GameObject:
   m_ObjectHideFlags: 0
