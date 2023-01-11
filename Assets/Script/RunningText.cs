@@ -7,7 +7,7 @@ public class RunningText : MonoBehaviour
 {
     [Header("Text Settings")]
     [SerializeField] [TextArea] private string[] itemInfo;
-    [SerializeField] private float textSpeed = 0.01f;
+    [SerializeField] private float textSpeed = 10f;
 
     [Header("UI Elements")]
     [SerializeField] private TextMeshProUGUI itemInfoText;
