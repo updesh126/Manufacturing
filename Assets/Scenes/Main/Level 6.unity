@@ -423,7 +423,7 @@ MonoBehaviour:
   ball: {fileID: 1409143623}
   myHand: {fileID: 1701647012}
   LocPlane: {fileID: 0}
-  Position: {x: 0, y: 0, z: 0}
+  Position: {x: 4.1, y: 1.039, z: -0.266}
   Rotation: {x: 0, y: 0, z: 90}
 --- !u!4 &40066723 stripped
 Transform:
@@ -5956,7 +5956,7 @@ MonoBehaviour:
   ball: {fileID: 926010812}
   myHand: {fileID: 1701647012}
   LocPlane: {fileID: 0}
-  Position: {x: 0, y: 0, z: 0}
+  Position: {x: 5.855, y: 1, z: 2.426}
   Rotation: {x: 0, y: 180, z: 90}
 --- !u!4 &757669282 stripped
 Transform:
@@ -9261,8 +9261,8 @@ MonoBehaviour:
   ball: {fileID: 1416934991}
   myHand: {fileID: 1701647012}
   LocPlane: {fileID: 0}
-  Position: {x: 0, y: 0, z: 0}
-  Rotation: {x: 0, y: 180, z: 90}
+  Position: {x: 4.225, y: 1, z: 2.426}
+  Rotation: {x: 0, y: 0, z: 90}
 --- !u!1001 &1938598684
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10290,8 +10290,8 @@ MonoBehaviour:
   ball: {fileID: 1181688}
   myHand: {fileID: 1701647012}
   LocPlane: {fileID: 0}
-  Position: {x: 0, y: 0, z: 0}
-  Rotation: {x: 0, y: 0, z: 90}
+  Position: {x: 5.654, y: 1.039, z: -0.266}
+  Rotation: {x: 0, y: 180, z: 90}
 --- !u!4 &2108780421 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4278777198094002, guid: ca970b0687dbd6f46baed8c70137e880,
