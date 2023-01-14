@@ -17,7 +17,11 @@ public class Speedometer : MonoBehaviour
         {
             // simulate increasing speed over time
             speed += 5;
-            Console.WriteLine("Current speed: " + speed + " mph")
+            Debug.Log("Current speed: " + speed + " mph");
+            if(speed >= 10000)
+            {
+                break;
+            }
         }
     }
 }
