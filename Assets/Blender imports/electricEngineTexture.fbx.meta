@@ -8,27 +8,22 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Mat
-    second: {fileID: 2100000, guid: 6a376aceb2fbde5499d8f078cef008d2, type: 2}
+    second: {fileID: 2100000, guid: 3751c1acea8e4c747badb028efd4d5f5, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Mat.1
-    second: {fileID: 2100000, guid: fb3f7c94b66eec54da5f635d3436f204, type: 2}
+    second: {fileID: 2100000, guid: 09e956a4e33a9244c9ed098420ab4287, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Mat.2
-    second: {fileID: 2100000, guid: f394a3d72531a3e4daaac68a303cdc43, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.003
-    second: {fileID: 2100000, guid: f394a3d72531a3e4daaac68a303cdc43, type: 2}
+    second: {fileID: 2100000, guid: 94be76e23ac511c499f66088894b71cf, type: 2}
   materials:
-    materialImportMode: 2
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
