@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
-using System.Threading;
 
 public class Speedometer : MonoBehaviour
 {
@@ -18,8 +17,7 @@ public class Speedometer : MonoBehaviour
         {
             // simulate increasing speed over time
             speed += 5;
-            Console.WriteLine("Current speed: " + speed + " mph");
-            Thread.Sleep(1000); // wait for 1 second
+            Console.WriteLine("Current speed: " + speed + " mph")
         }
     }
 }
