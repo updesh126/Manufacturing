@@ -9,6 +9,7 @@ public class PlayerGrab : MonoBehaviour
     public GameObject LocPlane;
     public Vector3 Position;
     public Vector3 Rotation;
+    //public Vector3 Scale;
 
     bool inHands =false;
     // Start is called before the first frame update
@@ -52,6 +53,7 @@ public class PlayerGrab : MonoBehaviour
             ball.transform.SetParent(null);
             ball.transform.localPosition = Position;
             ball.transform.eulerAngles = Rotation;
+            //ball.transform.localScale = Scale;
             Destroy(ball.GetComponent("Button"));
             inHands = false;
         }
