@@ -12,8 +12,9 @@ public class ScoreScript : MonoBehaviour
     public Sprite StarSprite2;
     public Sprite StarSprite3;
     public int index = 0;
+    public int sum = 0;
 
-    int[] scoreValue = new int[8];
+    public static int[] scoreValue = new int[8];
     Text score;
     // Start is called before the first frame update
     void Start()
@@ -26,6 +27,7 @@ public class ScoreScript : MonoBehaviour
     void Update()
     {
         score.text = "Score:" + scoreValue[index].ToString();
+        SumSco();
     }
     public void ADDScore(int Add)
     {
@@ -55,6 +57,15 @@ public class ScoreScript : MonoBehaviour
         {
             image.sprite = StarSprite3;
         }
+
         //score.text = "Score:" + scoreValue[index];
+    }
+    private void SumSco()
+    {
+        sum = 0;
+        for (int i = 0; i < 8; i++)
+        {
+            sum += scoreValue[i];
+        }
     }
 }
