@@ -11,42 +11,43 @@ public class ScoreScript : MonoBehaviour
     public Sprite StarSprite1;
     public Sprite StarSprite2;
     public Sprite StarSprite3;
+    public int index = 0;
 
-
-    public static int scoreValue = 0;
+    int[] scoreValue = new int[8];
     Text score;
     // Start is called before the first frame update
     void Start()
     {
+        //scoreValue[index] = 0;
         score = GetComponent<Text>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        score.text = "Score:" + scoreValue;
+        score.text = "Score:" + scoreValue[index].ToString();
     }
     public void ADDScore(int Add)
     {
-        scoreValue += Add;
+        scoreValue[index] += Add;
         CheckScore();
     }
     public void SubScore(int Sub)
     {
-        scoreValue -= Sub;
+        scoreValue[index] -= Sub;
         CheckScore();
     }
     private void CheckScore()
     {
-        if (scoreValue <= 0)
+        if (scoreValue[index] <= 0)
         {
             image.sprite = starSprite0;
         }
-        else if (0<=scoreValue && scoreValue <= 20)
+        else if (0<= scoreValue[index] && scoreValue[index] <= 20)
         {
             image.sprite = StarSprite1;
         }
-        else if (20 <= scoreValue && scoreValue <= 50)
+        else if (20 <= scoreValue[index] && scoreValue[index] <= 50)
         {
             image.sprite = StarSprite2;
         }
@@ -54,5 +55,6 @@ public class ScoreScript : MonoBehaviour
         {
             image.sprite = StarSprite3;
         }
+        //score.text = "Score:" + scoreValue[index];
     }
 }
