@@ -1,5 +1,5 @@
 # Manufacturing
-Project Demo App [Click Here](https://github.com/updesh126/Manufacturing/releases/tag/0.0.1v)
+Project Demo Apk [Click Here](https://github.com/updesh126/Manufacturing/releases/tag/0.0.1v)
 # Team Universal
 ## Members
 - Updesh Pr Singh (Team Leader)
